@@ -49,8 +49,7 @@ mm{
    ul {
     padding: 0;
    }
-   
-   li {
+    li {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
