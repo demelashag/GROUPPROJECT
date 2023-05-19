@@ -73,7 +73,7 @@ function addTask(event) {
  }
 }
 
-// clear all the tasks and remove them from HTML
+//cleare all files from move tasks
 function clearTasks(event) {
  event.preventDefault();
  tasks = [];
