@@ -61,8 +61,7 @@ mm{
    li span {
     flex: 1;
    }
-   
-   li button {
+    li button {
     background-color: blue;
     margin-left: 8px;
     color:white;
