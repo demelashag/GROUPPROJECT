@@ -1,12 +1,12 @@
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
- 
+let laper = document.getElementById('lap');
 let hour = 00;
 let minute = 00;
 let second = 00;
 let count = 00;
- 
+let laps =1;
 startBtn.addEventListener('click', function () {
     timer = true;
     stopWatch();
@@ -75,4 +75,11 @@ function stopWatch() {
         document.getElementById('count').innerHTML = countString;
         setTimeout(stopWatch, 10);
     }
+ 
 }
+function lap(){
+ var newlap = "lap "+laps+" -> "+document.getElementById('timer').innerHTML
+ li = document.createElement('div')
+ li.appendChild(document.createTextNode(newlap));
+ document.getElementById('lapsec').appendChild(li)
+ laps++;}
