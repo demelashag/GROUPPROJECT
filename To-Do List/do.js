@@ -6,7 +6,7 @@ const clearTaskBtn = document.getElement("clearTaskBtn");
 //initialize the arry
 let task = [];
 
-// load tasks from localStorage
+//load tasks from files
 if (localStorage.getItem("tasks")) {
  tasks = JSON.parse(localStorage.getItem("tasks"));
 }
