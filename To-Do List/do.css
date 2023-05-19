@@ -56,6 +56,8 @@ mm{
    }
    li input[type="checkbox"] {
     margin-right: 5px;
+       padding:0;
+      
    
    }
    li span {
