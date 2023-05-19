@@ -1,10 +1,10 @@
-const taskInput = document.getElementById("taskInput");
-const taskList = document.getElementById("taskList");
-const addTaskBtn = document.getElementById("addTaskBtn");
-const clearTaskBtn = document.getElementById("clearTaskBtn");
+const taskInput = document.getElement("taskInput");
+const taskList = document.getElement("taskList");
+const addTaskBtn = document.getElement("addTaskBtn");
+const clearTaskBtn = document.getElement("clearTaskBtn");
 
 // initialize tasks array
-let tasks = [];
+let task = [];
 
 // load tasks from localStorage
 if (localStorage.getItem("tasks")) {
