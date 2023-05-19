@@ -3,7 +3,7 @@ const taskList = document.getElement("taskList");
 const addTaskBtn = document.getElement("addTaskBtn");
 const clearTaskBtn = document.getElement("clearTaskBtn");
 
-// initialize tasks array
+//initialize the arry
 let task = [];
 
 // load tasks from localStorage
