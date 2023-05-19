@@ -69,7 +69,7 @@ mm{
     border-radius: 5px;
     padding: 5px 9px;
     font-size: 15px;
-    cursor: pointer;
+   cursor:all-scroll
    }
    
    li button:hover {
