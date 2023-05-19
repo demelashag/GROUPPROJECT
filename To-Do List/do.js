@@ -82,7 +82,7 @@ function clearTasks(event) {
  displayTasks();
 }
 
-//save tasks from files
+//save tasks form
 function saveTasks() {
  localStorage.setItem("tasks", JSON.stringify(tasks));
 }
